@@ -6,6 +6,14 @@ body {
   width: 300px;
   border-style: ridge;
   border-width: 5px;
-  border-color: dark red;
-  
+  border-color:  red;
+  list-style: none;
+  padding: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+#flavoredtext {
+  font-style: italic;
 }
