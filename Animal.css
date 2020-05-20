@@ -2,18 +2,40 @@ img {
   width: 300px;
 }
 
+h3 {
+text-decoration: underline;
+font-size: 25px;
+font-family: sans-serif;
+}
+
 body {
   width: 300px;
   border-style: ridge;
   border-width: 5px;
   border-color:  red;
-  list-style: none;
   padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+
+}
+ul {
+  list-style: none;
 }
 
 .label {
   font-weight: bold;
 }
+
+.smaller {
+  border: 3px solid white;
+  box-shadow: grey;
+  width: 280px;
+  padding: 6px;
+}
+
 #flavoredtext {
   font-style: italic;
+  color: orange;
+  font-size: .85em;
 }
