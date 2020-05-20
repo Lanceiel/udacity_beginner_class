@@ -6,13 +6,18 @@ h3 {
 text-decoration: underline;
 font-size: 25px;
 font-family: sans-serif;
+text-align: left;
 }
 
 body {
+  background-color: #333333;
+}
+
+.larger {
   width: 320px;
   border-style: ridge;
   border-width: 5px;
-  border-color:  red;
+  border-color:  white;
   padding: 5px;
   background-color: black;
   color: white;
@@ -32,10 +37,12 @@ ul {
 
 .smaller {
   border: 3px dashed white;
+  border-radius: 7px;
   width: 280px;
   padding: 10px;
   display: inline-block;
   text-align: left;
+  background-color: #56595d;
 }
 
 #flavoredtext {
